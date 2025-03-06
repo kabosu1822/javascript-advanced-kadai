@@ -124,7 +124,7 @@ const gameOver = id => {
       if (result == true) {
         window.location.reload();
       }
-    }, 500); // 0.5秒後にダイアログを表示
+    }, 10); // 0.01秒後にダイアログを表示
   }, 10); // 0.01秒後にタイムアップを表示
 };
 
